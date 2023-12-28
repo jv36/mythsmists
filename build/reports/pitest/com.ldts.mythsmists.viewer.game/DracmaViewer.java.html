@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>DracmaViewer.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.ldts.mythsmists.viewer.game;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.ldts.mythsmists.gui.GUI;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.ldts.mythsmists.model.Elements.Dracma;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class DracmaViewer implements ElementViewer&#60;Dracma&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_9'/>
+9
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_9'>1</a>
+<span>
+1. draw : removed call to com/ldts/mythsmists/gui/GUI::drawDracma &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    public void draw(Dracma dracma, GUI gui) { gui.drawDracma(dracma.getPosition());}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_9'>9</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@1b4ae4e0_9'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawDracmas()]</span></span> removed call to com/ldts/mythsmists/gui/GUI::drawDracma &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawEnemies()] (4 ms)</li><li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawRivers()] (6 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawDracmas()] (6 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawCheckpoint()] (7 ms)</li><li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawWalls()] (6 ms)</li><li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawCheckpoint()] (7 ms)</li><li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawOrpheus()] (9 ms)</li><li>com.ldts.mythsmists.viewer.MapViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.MapViewerTest]/[method:drawDracmas()] (8 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawWalls()] (11 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawRivers()] (12 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawEnemies()] (12 ms)</li><li>com.ldts.mythsmists.viewer.Map15ViewerTest.[engine:junit-jupiter]/[class:com.ldts.mythsmists.viewer.Map15ViewerTest]/[method:drawOrpheus()] (33 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.0
+
+</body>
+</html>
